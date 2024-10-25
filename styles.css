@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    font-size: 2em;
+    color: #4a4a4a;
+  }
+  
+  #game, #score-page {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .option-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .option-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .correct {
+    background-color: #28a745 !important; /* Green for correct answer */
+    color: #fff;
+  }
+  
+  .wrong {
+    background-color: #dc3545 !important; /* Red for wrong answer */
+    color: #fff;
+  }
+  
+  #score {
+    margin-top: 20px;
+    font-size: 1.3em;
+  }
+  
+  #restart-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

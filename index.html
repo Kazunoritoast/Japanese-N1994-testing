@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japanese Vocab Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Japanese Vocab Game</h1>
+  <div id="game">
+    <div id="question">Question</div>
+    <div id="options">
+      <button class="option-btn" onclick="checkAnswer(0)">Option 1</button>
+      <button class="option-btn" onclick="checkAnswer(1)">Option 2</button>
+      <button class="option-btn" onclick="checkAnswer(2)">Option 3</button>
+      <button class="option-btn" onclick="checkAnswer(3)">Option 4</button>
+    </div>
+    <div id="score">Score: 0</div>
+  </div>
+
+  <div id="score-page" style="display: none;">
+    <h2>Game Over!</h2>
+    <div id="final-score"></div>
+    <button id="restart-btn" onclick="restartGame()">Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
